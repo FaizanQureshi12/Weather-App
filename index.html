@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="weather.css">
+    <script src="weather.js"></script>
+</head>
+
+<body id="gjik">
+
+    <main id="mlo">
+        <nav>
+            <h1> Weather Application </h1>
+        </nav>
+        <br>
+        <form onsubmit="getWeather() ; return false ;">
+            <input type="text" maxlength="20" placeholder=" Enter Your City Name " autofocus required id="iCity">
+
+        </form>
+        <img class="tp" id="weatherPic">
+        <div class="tp" id="temp"></div>
+        <!-- <img src="https://openweathermap.org/img/wn/04n.png" alt="not Found" class="icon" /> -->
+
+        <div class="tyu">
+            <div id="cityName"></div>
+            <div id="region"></div>
+            <div id="countryName"></div>
+        </div>
+
+        <div id="weatherType"></div>
+        <div class="bjm">
+            <div id="feelslike_c"></div>
+            <div id="feelslike_f"></div>
+            <div id="humidity"></div>
+            <div id="precipitations"></div>
+            <div id="cloud"></div>
+            <div id="wind"></div>
+            <div id="windDegree"></div>
+            <div id="visibility"></div>
+        </div>
+    </main>
+
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+body#gjik {
+    background-image: url('https://source.unsplash.com/1600x900/?nature');
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    background-color: azure;
+    height: 50px;
+    color: black;
+    margin-top: -16px;
+}
+
+nav>h1 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+input {
+    border-radius: 10px;
+    height: 30px;
+    width: 250px;
+    margin: 5px;
+}
+
+.tp {
+    display: inline-block;
+}
+
+div#temp {
+    position: relative;
+    left: 80px;
+}
+
+div.tyu {
+    display: flex;
+    position: relative;
+    top: -35px;
+}
+
+div#weatherType {
+    position: relative;
+    top: -60px;
+}
+
+div.bjm {
+    position: relative;
+    top: -60px;
+}
+
+main#mlo {
+    border-radius: 10px;
+    background-color: rgba(8, 8, 8, 0.671);
+    padding: 1.5em;
+    color: white;
+    box-shadow: 10px 10px black;
+    border: 3px solid;
+}
